@@ -17,7 +17,7 @@ $this->need('public/header.php');
 
         <section>
             <div class="tin-user-logo">
-                <img src="<?php $this->options->userLogo() ?>" alt="用户头像">
+                <img src="<?php $this->options->userLogo(http://Omoitsuku.github.io/userlogo.png) ?>" alt="用户头像">
             </div>
             <div class="tin-user-autograph">
                
