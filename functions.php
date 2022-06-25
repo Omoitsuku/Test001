@@ -2,23 +2,23 @@
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 
 function themeConfig($form) {
-    $logoUrl = new Typecho_Widget_Helper_Form_Element_Text('logoUrl', NULL, NULL, _t('站点 LOGO '), _t('填写文字'));
+    $logoUrl = new Typecho_Widget_Helper_Form_Element_Text('logoUrl', NULL, NULL, _t('站点 LOGO '), _t('Omoitsukuの小窝'));
     $form->addInput($logoUrl);
     
-    $favicon = new Typecho_Widget_Helper_Form_Element_Text('favicon', NULL, NULL, _t('站点 favicon 地址'), _t('请输入favicon网址，带http(s)://'));
+    $favicon = new Typecho_Widget_Helper_Form_Element_Text('favicon', NULL, NULL, _t('站点 favicon 地址'), _t('http://Omoitsuku.github.io/favicon.ico'));
     $form->addInput($favicon);
     
     
-    $userLogo = new Typecho_Widget_Helper_Form_Element_Text('userLogo', NULL, NULL, _t('首页头像'), _t('请输入完整版图片网址，带http(s)://'));
+    $userLogo = new Typecho_Widget_Helper_Form_Element_Text('userLogo', NULL, NULL, _t('首页头像'), _t('http://Omoitsuku.github.io/userlogo.png'));
     $form->addInput($userLogo);
     
-    $userYiyan = new Typecho_Widget_Helper_Form_Element_Text('userYiyan', NULL, NULL, _t('首页展示的一言'), _t('首页展示的一言'));
+    $userYiyan = new Typecho_Widget_Helper_Form_Element_Text('userYiyan', NULL, NULL, _t('首页展示的一言'), _t(''Tis a perilous path you walk. Death lurks in the dark, and is the sole promise that awaits at journey's end.生乃一条无尽危路，唯有死在尽头停驻。'));
     $form->addInput($userYiyan);
     
-    $footerInfo = new Typecho_Widget_Helper_Form_Element_Text('footerInfo', NULL, NULL, _t('底部版权信息'), _t('底部版权信息'));
+    $footerInfo = new Typecho_Widget_Helper_Form_Element_Text('footerInfo', NULL, NULL, _t('底部版权信息'), _t('此处为版权信息'));
     $form->addInput($footerInfo);
     
-    $footerJs = new Typecho_Widget_Helper_Form_Element_Text('footerJs', NULL, NULL, _t('自定义JS或者CSS'), _t('自定义JS或者CSS'));
+    $footerJs = new Typecho_Widget_Helper_Form_Element_Text('footerJs', NULL, NULL, _t('自定义JS或者CSS'), _t('http://Omoitsuku.github.io/style/css/style.css'));
     $form->addInput($footerJs);
 }
 
