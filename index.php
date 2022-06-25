@@ -21,7 +21,7 @@ $this->need('public/header.php');
             </div>
             <div class="tin-user-autograph">
                
-                <p><?php $this->options->userYiyan() ?></p>
+                <p><?php $this->options->userYiyan('Tis a perilous path you walk. Death lurks in the dark, and is the sole promise that awaits at journey's end.生乃一条无尽危路，唯有死在尽头停驻。) ?></p>
             </div>
 
         </section>
