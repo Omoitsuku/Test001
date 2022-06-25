@@ -2,7 +2,7 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="<?php $this->options->charset(UTF-8); ?>">
+<meta charset="<?php $this->options->charset('UTF-8'); ?>">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="renderer" content="webkit">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -11,10 +11,10 @@
         'search'    =>  _t('包含关键字 %s 的文章'),
         'tag'       =>  _t('标签 %s 下的文章'),
         'author'    =>  _t('%s 发布的文章')
-    ), '', ' - '); ?><?php $this->options->title(Omoitsukuの小窝); ?></title>
+    ), '', ' - '); ?><?php $this->options->title('Omoitsukuの小窝'); ?></title>
     
-<link rel="shortcut icon" href="<?php $this->options->favicon(http://Omoitsuku.github.io/favicon.ico) ?>" />
-<link rel="bookmark"href="<?php $this->options->favicon(http://Omoitsuku.github.io/favicon.ico) ?>" />
+<link rel="shortcut icon" href="<?php $this->options->favicon('http://Omoitsuku.github.io/favicon.ico') ?>" />
+<link rel="bookmark"href="<?php $this->options->favicon('http://Omoitsuku.github.io/favicon.ico') ?>" />
 
 <!-- 使用url函数转换相关路径 -->
 <link rel="stylesheet" href="<?php $this->options->themeUrl('style/css/bootstrap.min.css')?>">
@@ -53,7 +53,7 @@
             <!--PC端导航-->
             <div class="tin-nav-pc">
                     <div class="tin-logo">
-                        <a href="/"><span><?php $this->options->logoUrl(http://Omoitsuku.github.io/favicon.ico) ?>Omoitsuku❤</span></a>
+                        <a href="/"><span><?php $this->options->logoUrl('http://Omoitsuku.github.io/favicon.ico') ?>Omoitsuku❤</span></a>
                     </div>
                     <div class="tin-son-nav">
                         <ul>
@@ -68,7 +68,7 @@
             <!--手机端导航-->
             <div class="tin-nav-wap">
                 <div class="tin-logo tin-fl-left">
-                    <a href="/"><span><?php $this->options->logoUrl(http://Omoitsuku.github.io/favicon.ico) ?>Omoitsukuの小窝❤</span></a>
+                    <a href="/"><span><?php $this->options->logoUrl('http://Omoitsuku.github.io/favicon.ico') ?>Omoitsukuの小窝❤</span></a>
                 </div>
                 <div class="tin-son-nav tin-fl-right">
                     <div class="tin-tw">
@@ -83,7 +83,7 @@
             <div class="tin-son-nav-wap-z"></div>
             <div class="tin-son-nav-wap">
                 <div class="tin-logo">
-                    <span><?php $this->options->logoUrl(http://Omoitsuku.github.io/favicon.ico) ?>Omoitsukuの小窝❤</span>
+                    <span><?php $this->options->logoUrl('http://Omoitsuku.github.io/favicon.ico') ?>Omoitsukuの小窝❤</span>
                 </div>
                 <ul>
                     
